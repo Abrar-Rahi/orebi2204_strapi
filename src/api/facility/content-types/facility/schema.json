@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "facilities",
+  "info": {
+    "singularName": "facility",
+    "pluralName": "facilities",
+    "displayName": "facility",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "our_bestsellers",
+  "info": {
+    "singularName": "our-bestseller",
+    "pluralName": "our-bestsellers",
+    "displayName": "our bestseller"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "products": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product.product"
+    }
+  }
+}

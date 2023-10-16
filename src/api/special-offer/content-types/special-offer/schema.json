@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "special_offers",
+  "info": {
+    "singularName": "special-offer",
+    "pluralName": "special-offers",
+    "displayName": "special offer"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "products": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product.product"
+    }
+  }
+}

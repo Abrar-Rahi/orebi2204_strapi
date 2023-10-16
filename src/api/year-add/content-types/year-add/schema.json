@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "year_adds",
+  "info": {
+    "singularName": "year-add",
+    "pluralName": "year-adds",
+    "displayName": "year_add"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imeges": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

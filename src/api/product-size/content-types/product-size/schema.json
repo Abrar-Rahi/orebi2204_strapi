@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_sizes",
+  "info": {
+    "singularName": "product-size",
+    "pluralName": "product-sizes",
+    "displayName": "product_size"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "size": {
+      "type": "string"
+    }
+  }
+}
